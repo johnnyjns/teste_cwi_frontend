@@ -1,0 +1,34 @@
+Exercício 1. Você deve criar uma solução, em JavaScript, que altere um objeto de Data personalizado recebendo como parâmetro uma operação matemática e a quantidade de minutos a serem adicionados ou subtraídos. Primeiramente, deve ser preciso criar um objeto CustomDate a partir de uma string e depois chamar a função operateDate que retornará uma nova string (o resultado da operação na data).
+
+Exemplo de uso do seu código:
+
+var myDate = new CustomDate("01/03/2010 23:00")
+, newDateText = myDate.operateDate('+', 4000);
+
+// newDateText = "04/03/2010 17:40"
+
+Assinaturas de exemplo:
+
+1)      var CustomDate = function (date) { }
+
+// Onde:
+// date: Uma string que representa uma data, no formato “dd/MM/yyyy HH24:mi”;
+// Esta function deve implementar o constructor do objeto CustomDate
+
+
+2)      CustomDate.prototype.operateDate = function (op, value) { }
+
+// Onde:
+// op: Deve ser apenas ‘+’ ou ‘-‘;
+// value: o valor a ser adicionado / subtraído. É expressado em minutos.
+// Esta function deve retornar a string que representa o resultado da operação na data original.
+
+
+Restrições:
+- você NÃO pode trabalhar com prototypes ou bibliotecas javascripts existentes, como momentjs e timespanjs.
+- você NÃO pode utilizar o prototype Date do Javascript.
+- se operador é invalido então um erro deve ser lançado.
+- se o valor é menor que zero, você deve ignorar o sinal.
+- ignore o fato de que Fevereiro pode ter 28 ou 29 dias. Considere que sempre serão 28 dias.
+- ignore horário de verão ou fusos horários.
+- Deve ser utilizado a versão ES5 para desenvolvimento.

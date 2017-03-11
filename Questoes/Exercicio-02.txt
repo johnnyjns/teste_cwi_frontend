@@ -1,0 +1,14 @@
+Exercício 2. Escreva um arquivo index.html que reproduza o wireframe que foi enviado em anexo junto a este documento (wireframe.png). Estilize a página livremente desde que você siga os seguintes requisitos obrigatórios:
+
+1)      Toda estrutura do wireframe deve ser implementada (cabeçalho, banner, listagem de serviços oferecidos, conteúdo de apresentação, texto lateral, seção de newsletter, rodapé)
+2)      Nenhum framework terceiro de CSS deve ser utilizado. Exemplos de frameworks: Twitter Bootstrap, Zurb Foundation, Animate.CSS, Skeleton, UIkit, Ink, Materialize CSS, etc.
+3)      Apenas a biblioteca jQuery pode ser usada.
+
+Importante: apenas serão avaliadas soluções dos candidatos que:
+
+·         Anexarem no email apenas um arquivo ZIP. O nome do arquivo deve ser o nome completo do candidato, separado por espaço em branco.
+o   Ex: Se o nome do candidato é João Sebastião Bach, então o nome do arquivo deve ser João Sebastião Bach.zip
+·         Enviarem o arquivo ZIP na seguinte estrutura:
+o   Com dois diretórios para cada exercício dentro, nomes “Exercicio01” e “Exercicio02” respectivamente.
+o   No diretório “Exercicio01”, coloque apenas arquivos JavaScript (*.js) válidos.
+o   No diretório “Exercício02”, coloque apenas os arquivos necessários para construir a página web.
