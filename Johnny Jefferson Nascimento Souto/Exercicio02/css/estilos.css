@@ -1,0 +1,65 @@
+html, body{
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  /*vertical-align: baseline;*/
+}
+body{
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  /*line-height: 1;*/
+}
+#header{
+  height: 70px;
+  background-color: #000;
+  color: #fff;
+}
+.cabecalho{
+
+  margin: 0 auto;
+}
+.cabecalho ul{
+
+}
+.cabecalho ul li{
+  list-style: none;
+  display: inline;
+}
+.cabecalho ul li a{
+
+}
+#content{
+  background-color: #fff;
+}
+#banner{
+  height: 250px;
+  background-color: #b3b3b3;
+}
+.promo{
+  width: 960px;
+  color: #fff;
+  text-align: center;
+}
+.promo h1{
+  font-size: 32px;
+}
+#servicos{
+  height: 300px;
+  background-color: #e6e6e6;
+}
+#empresa{
+  height: 300px;
+}
+#empresa .texto-esquerdo{
+  font-size: 12px;
+}
+#newsletter{
+  height: 300px;
+  background-color: #e6e6e6;
+}
+#footer{
+  height: 150px;
+  background-color: #000;
+  color: #fff;
+}
