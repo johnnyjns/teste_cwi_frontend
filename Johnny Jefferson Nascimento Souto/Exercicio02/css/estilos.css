@@ -1,30 +1,107 @@
-html, body, ul{
+html, body, ul, h1, h2, h3, p{
   margin: 0;
   padding: 0;
   border: 0;
 }
-
 body{
   background-color: #fff;
   color: #000;
+  font: 100 22px sans-serif;
 }
 #geral {
   width: 100%;
 }
 nav{
   background-color: #000;
-  margin-top: 0;
-  height: 50px;
+  height: 60px;
 }
-.cabecalho{
-  /*width: 960px;*/
-  /*margin: 0 auto;*/
+nav ul {
+  float: left;
+  padding: 15px;
 }
-ul li{
+nav ul li{
   display: inline;
   list-style: none;
+  padding-right: 20px;
 }
-ul li a{
+nav ul li a{
   text-decoration: none;
   color: #fff;
+}
+.banner{
+  height: 400px;
+  background-color: #a6a6a6;
+  color: #fff;
+}
+.texto-centralizado-1 {
+  margin: 0 auto;
+  width: 540px;
+  text-align: center;
+}
+.texto-centralizado-2 {
+  margin: 0 auto;
+  width: 640px;
+  text-align: center;
+}
+.banner h1 {
+  padding: 25px 15px;
+}
+.banner p {
+  font-style: italic;
+  font-size: 10;
+  padding: 15px;
+}
+.servicos {
+  height: 400px;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  text-align: center;
+}
+.servico {
+  width: 200px;
+  padding: 10px;
+  margin: 15px 35px 0 35px;
+  float: left;
+}
+.servico h3 {
+  font-size: 16px;
+  margin-top: 25px;
+}
+.servico p {
+  font-size: 12px;
+  margin-top: 25px;
+}
+.servico img {
+  width: 150px;
+  height: 150px;
+  margin-top: 25px;
+}
+.servico a {
+  font-size: 14px;
+  color: #000;
+}
+.conteudo {
+  height: 250px;
+  text-align: left;
+  margin: 30px;
+}
+.conteudo h2 {
+  font-size: 18px;
+  padding: 10px;
+}
+.conteudo p {
+  font-size: 14px;
+  padding: 10px;
+}
+.conteudo .esquerdo {
+  width: 70%;
+  float: left;
+}
+.conteudo .direito {
+  width: 30%;
+  float: right;
+}
+.newsletter {
+  background-color: #ccc;
+  height: 300px;
 }
