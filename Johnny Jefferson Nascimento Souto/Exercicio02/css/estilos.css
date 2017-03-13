@@ -1,4 +1,4 @@
-html, body, ul, h1, h2, h3, p{
+html, body, ul, h1, h2, h3, p, input{
   margin: 0;
   padding: 0;
   border: 0;
@@ -27,6 +27,35 @@ nav ul li{
 nav ul li a{
   text-decoration: none;
   color: #fff;
+}
+.search {
+  border: solid 1px;
+  border-radius: 13px;
+  width: 200px;
+  height: 35px;
+  float: right;
+  padding: 5px 10px 5px 35px;
+  margin: 10px 30px;
+  font-style: italic;
+  font-size: 14px;
+  background-repeat:no-repeat;
+  background-image:url(../imagens/lupa.png);
+  background-size: 15px 15px;
+  background-position: 10px;
+}
+.button1 {
+  background-color: #a6a6a6;
+  border: solid 1px #fff;
+  border-radius: 10px;
+  color: #fff;
+  padding: 0;
+  text-align:center;
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-block;
+  cursor: pointer;
+  width: 200px;
+  height: 75px;
 }
 .banner{
   height: 400px;
@@ -103,5 +132,38 @@ nav ul li a{
 }
 .newsletter {
   background-color: #ccc;
-  height: 300px;
+  height: 350px;
+  color: #fff;
+}
+.newsletter h1 {
+  font-size: 1.5em;
+  padding-top: 50px;
+  margin: 15px;
+}
+.newsletter p {
+  font-size: 0.8em;
+  padding-top: 15px;
+}
+footer{
+  background-color: #000;
+  color: #fff;
+  height: 215px;
+  text-align: center;
+}
+footer ul {
+  padding: 30px;
+}
+footer ul li{
+  display: inline;
+  list-style: none;
+  padding-right: 20px;
+  font-size: 0.8em;
+}
+footer ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+footer p {
+  font-size: 0.7em;
+  padding-top: 45px;
 }
